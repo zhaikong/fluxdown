@@ -5,10 +5,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "wxt",
-    "dev:firefox": "wxt --browser firefox",
-    "build": "wxt build",
-    "build:firefox": "wxt build --browser firefox",
+    "dev": "node init && wxt",
+    "dev:firefox": "node init && wxt --browser firefox",
+    "build": "node init && wxt build",
+    "build:firefox": "node init && wxt build --browser firefox",
     "zip": "wxt zip",
     "zip:firefox": "wxt zip --browser firefox"
   },
